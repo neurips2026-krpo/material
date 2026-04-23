@@ -2,6 +2,13 @@
 
 This directory has been sanitized for public release. No personal IP addresses, passwords, or machine-specific model paths are kept in the code.
 
+## Released Model
+
+The `qwen3_14b_krpo` model trained in this study has been publicly released on Hugging Face.
+
+- Model page: [NIPS2026-Review-Materials/qwen3_14b_krpo](https://huggingface.co/NIPS2026-Review-Materials/qwen3_14b_krpo)
+- Download: use the Hugging Face page above to access the model weights and usage instructions.
+
 Install all dependencies with one command:
 
 ```bash
