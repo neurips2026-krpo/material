@@ -9,6 +9,12 @@ The `qwen3_14b_krpo` model trained in this study has been publicly released on H
 - Model page: [NIPS2026-Review-Materials/qwen3_14b_krpo](https://huggingface.co/NIPS2026-Review-Materials/qwen3_14b_krpo)
 - Download: use the Hugging Face page above to access the model weights and usage instructions.
 
+## Online Demo
+
+To further illustrate the reasoning behavior of the KRPO-trained model, we provide an online TCM reasoning demo in the supplementary material. The demo presents a representative example of Eight-Principle syndrome differentiation and is accessible at [DEMO](http://219.147.100.43:42132/).
+
+For access, both the username and password follow the format `krpo_XXXX`, where `XXXX` denotes the paper submission ID.
+
 Install all dependencies with one command:
 
 ```bash
