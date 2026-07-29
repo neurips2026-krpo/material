@@ -1,0 +1,559 @@
+{
+  "status": "PASS",
+  "authoritative_population": 100,
+  "conditions": {
+    "q14_base_clean": {
+      "joint_exact": {
+        "correct": 21,
+        "n": 100,
+        "rate": 0.21,
+        "wilson_95_ci": [
+          0.141656540619153,
+          0.29979968834089865
+        ]
+      },
+      "schema_valid": {
+        "correct": 100,
+        "n": 100,
+        "rate": 1.0,
+        "wilson_95_ci": [
+          0.9630065017930143,
+          1.0
+        ]
+      },
+      "field_micro_exact": {
+        "correct": 56,
+        "n": 160,
+        "rate": 0.35,
+        "wilson_95_ci": [
+          0.2803979974382879,
+          0.4266358611131637
+        ]
+      },
+      "family_macro_joint_exact": 0.21156462585034014,
+      "by_family": {
+        "eight_principles": {
+          "correct": 4,
+          "n": 15,
+          "rate": 0.26666666666666666,
+          "wilson_95_ci": [
+            0.10897453325692374,
+            0.5195043405598057
+          ]
+        },
+        "etiology": {
+          "correct": 0,
+          "n": 15,
+          "rate": 0.0,
+          "wilson_95_ci": [
+            0.0,
+            0.20388330103584862
+          ]
+        },
+        "six_meridian": {
+          "correct": 2,
+          "n": 14,
+          "rate": 0.14285714285714285,
+          "wilson_95_ci": [
+            0.040093921271464966,
+            0.39941379496970353
+          ]
+        },
+        "qi_blood_body_fluids": {
+          "correct": 2,
+          "n": 14,
+          "rate": 0.14285714285714285,
+          "wilson_95_ci": [
+            0.040093921271464966,
+            0.39941379496970353
+          ]
+        },
+        "triple_burner": {
+          "correct": 2,
+          "n": 14,
+          "rate": 0.14285714285714285,
+          "wilson_95_ci": [
+            0.040093921271464966,
+            0.39941379496970353
+          ]
+        },
+        "wei_qi_ying_xue": {
+          "correct": 6,
+          "n": 14,
+          "rate": 0.42857142857142855,
+          "wilson_95_ci": [
+            0.21380798904474121,
+            0.6740935542034926
+          ]
+        },
+        "zang_fu": {
+          "correct": 5,
+          "n": 14,
+          "rate": 0.35714285714285715,
+          "wilson_95_ci": [
+            0.1634473175355414,
+            0.612355768960926
+          ]
+        }
+      },
+      "etiology": {
+        "parent": {
+          "correct": 2,
+          "n": 15,
+          "rate": 0.13333333333333333,
+          "wilson_95_ci": [
+            0.03736125910306537,
+            0.37881982832322364
+          ]
+        },
+        "child": {
+          "correct": 2,
+          "n": 15,
+          "rate": 0.13333333333333333,
+          "wilson_95_ci": [
+            0.03736125910306537,
+            0.37881982832322364
+          ]
+        },
+        "joint": {
+          "correct": 0,
+          "n": 15,
+          "rate": 0.0,
+          "wilson_95_ci": [
+            0.0,
+            0.20388330103584862
+          ]
+        }
+      },
+      "actions": {
+        "complete_steps": 464,
+        "required_steps": 571,
+        "action_completeness": 0.8126094570928196,
+        "exact_steps": 278,
+        "action_step_exact": 0.4868651488616462,
+        "exact_fields": 290,
+        "required_fields": 643,
+        "action_field_exact": 0.4510108864696734,
+        "trajectory_exact": {
+          "correct": 6,
+          "n": 100,
+          "rate": 0.06,
+          "wilson_95_ci": [
+            0.027786123963188192,
+            0.1247681544589592
+          ]
+        }
+      }
+    },
+    "q14_outcome_clean": {
+      "joint_exact": {
+        "correct": 28,
+        "n": 100,
+        "rate": 0.28,
+        "wilson_95_ci": [
+          0.20139685211186212,
+          0.3748802870992116
+        ]
+      },
+      "schema_valid": {
+        "correct": 68,
+        "n": 100,
+        "rate": 0.68,
+        "wilson_95_ci": [
+          0.5833738138954762,
+          0.7633085267500092
+        ]
+      },
+      "field_micro_exact": {
+        "correct": 35,
+        "n": 160,
+        "rate": 0.21875,
+        "wilson_95_ci": [
+          0.1617014725523996,
+          0.2889870122315721
+        ]
+      },
+      "family_macro_joint_exact": 0.28299319727891153,
+      "by_family": {
+        "eight_principles": {
+          "correct": 1,
+          "n": 15,
+          "rate": 0.06666666666666667,
+          "wilson_95_ci": [
+            0.011866895493268553,
+            0.2981652987378003
+          ]
+        },
+        "etiology": {
+          "correct": 3,
+          "n": 15,
+          "rate": 0.2,
+          "wilson_95_ci": [
+            0.07047549346981563,
+            0.45185448715169363
+          ]
+        },
+        "six_meridian": {
+          "correct": 1,
+          "n": 14,
+          "rate": 0.07142857142857142,
+          "wilson_95_ci": [
+            0.012722215247890939,
+            0.31468704424151117
+          ]
+        },
+        "qi_blood_body_fluids": {
+          "correct": 3,
+          "n": 14,
+          "rate": 0.21428571428571427,
+          "wilson_95_ci": [
+            0.07571386712693184,
+            0.47589230586600295
+          ]
+        },
+        "triple_burner": {
+          "correct": 8,
+          "n": 14,
+          "rate": 0.5714285714285714,
+          "wilson_95_ci": [
+            0.3259064457965074,
+            0.7861920109552588
+          ]
+        },
+        "wei_qi_ying_xue": {
+          "correct": 10,
+          "n": 14,
+          "rate": 0.7142857142857143,
+          "wilson_95_ci": [
+            0.4535091567010681,
+            0.8827862135542308
+          ]
+        },
+        "zang_fu": {
+          "correct": 2,
+          "n": 14,
+          "rate": 0.14285714285714285,
+          "wilson_95_ci": [
+            0.040093921271464966,
+            0.39941379496970353
+          ]
+        }
+      },
+      "etiology": {
+        "parent": {
+          "correct": 3,
+          "n": 15,
+          "rate": 0.2,
+          "wilson_95_ci": [
+            0.07047549346981563,
+            0.45185448715169363
+          ]
+        },
+        "child": {
+          "correct": 4,
+          "n": 15,
+          "rate": 0.26666666666666666,
+          "wilson_95_ci": [
+            0.10897453325692374,
+            0.5195043405598057
+          ]
+        },
+        "joint": {
+          "correct": 3,
+          "n": 15,
+          "rate": 0.2,
+          "wilson_95_ci": [
+            0.07047549346981563,
+            0.45185448715169363
+          ]
+        }
+      },
+      "actions": {
+        "complete_steps": 463,
+        "required_steps": 571,
+        "action_completeness": 0.8108581436077058,
+        "exact_steps": 321,
+        "action_step_exact": 0.5621716287215411,
+        "exact_fields": 351,
+        "required_fields": 643,
+        "action_field_exact": 0.5458786936236392,
+        "trajectory_exact": {
+          "correct": 6,
+          "n": 100,
+          "rate": 0.06,
+          "wilson_95_ci": [
+            0.027786123963188192,
+            0.1247681544589592
+          ]
+        }
+      }
+    },
+    "q14_krpo_clean": {
+      "joint_exact": {
+        "correct": 38,
+        "n": 100,
+        "rate": 0.38,
+        "wilson_95_ci": [
+          0.29097599252478734,
+          0.47790244704488916
+        ]
+      },
+      "schema_valid": {
+        "correct": 100,
+        "n": 100,
+        "rate": 1.0,
+        "wilson_95_ci": [
+          0.9630065017930143,
+          1.0
+        ]
+      },
+      "field_micro_exact": {
+        "correct": 82,
+        "n": 160,
+        "rate": 0.5125,
+        "wilson_95_ci": [
+          0.43566953810500403,
+          0.5887443070157083
+        ]
+      },
+      "family_macro_joint_exact": 0.38095238095238093,
+      "by_family": {
+        "eight_principles": {
+          "correct": 7,
+          "n": 15,
+          "rate": 0.4666666666666667,
+          "wilson_95_ci": [
+            0.24809535365737387,
+            0.698830199745016
+          ]
+        },
+        "etiology": {
+          "correct": 3,
+          "n": 15,
+          "rate": 0.2,
+          "wilson_95_ci": [
+            0.07047549346981563,
+            0.45185448715169363
+          ]
+        },
+        "six_meridian": {
+          "correct": 4,
+          "n": 14,
+          "rate": 0.2857142857142857,
+          "wilson_95_ci": [
+            0.11721378644576919,
+            0.5464908432989318
+          ]
+        },
+        "qi_blood_body_fluids": {
+          "correct": 4,
+          "n": 14,
+          "rate": 0.2857142857142857,
+          "wilson_95_ci": [
+            0.11721378644576919,
+            0.5464908432989318
+          ]
+        },
+        "triple_burner": {
+          "correct": 8,
+          "n": 14,
+          "rate": 0.5714285714285714,
+          "wilson_95_ci": [
+            0.3259064457965074,
+            0.7861920109552588
+          ]
+        },
+        "wei_qi_ying_xue": {
+          "correct": 8,
+          "n": 14,
+          "rate": 0.5714285714285714,
+          "wilson_95_ci": [
+            0.3259064457965074,
+            0.7861920109552588
+          ]
+        },
+        "zang_fu": {
+          "correct": 4,
+          "n": 14,
+          "rate": 0.2857142857142857,
+          "wilson_95_ci": [
+            0.11721378644576919,
+            0.5464908432989318
+          ]
+        }
+      },
+      "etiology": {
+        "parent": {
+          "correct": 4,
+          "n": 15,
+          "rate": 0.26666666666666666,
+          "wilson_95_ci": [
+            0.10897453325692374,
+            0.5195043405598057
+          ]
+        },
+        "child": {
+          "correct": 4,
+          "n": 15,
+          "rate": 0.26666666666666666,
+          "wilson_95_ci": [
+            0.10897453325692374,
+            0.5195043405598057
+          ]
+        },
+        "joint": {
+          "correct": 3,
+          "n": 15,
+          "rate": 0.2,
+          "wilson_95_ci": [
+            0.07047549346981563,
+            0.45185448715169363
+          ]
+        }
+      },
+      "actions": {
+        "complete_steps": 570,
+        "required_steps": 571,
+        "action_completeness": 0.9982486865148862,
+        "exact_steps": 398,
+        "action_step_exact": 0.6970227670753065,
+        "exact_fields": 431,
+        "required_fields": 643,
+        "action_field_exact": 0.6702954898911353,
+        "trajectory_exact": {
+          "correct": 21,
+          "n": 100,
+          "rate": 0.21,
+          "wilson_95_ci": [
+            0.141656540619153,
+            0.29979968834089865
+          ]
+        }
+      }
+    }
+  },
+  "krpo_minus_base": {
+    "name": "krpo_minus_base_final_joint",
+    "candidate_rate": 0.38,
+    "comparator_rate": 0.21,
+    "difference": 0.17,
+    "bootstrap_95_ci": [
+      0.07,
+      0.28
+    ],
+    "candidate_only": 24,
+    "comparator_only": 7,
+    "discordant": 31,
+    "p_value_raw": 0.003326892852783203,
+    "p_value_holm": 0.013307571411132812
+  },
+  "clean_binary_family": [
+    {
+      "name": "krpo_minus_base_final_joint",
+      "candidate_rate": 0.38,
+      "comparator_rate": 0.21,
+      "difference": 0.17,
+      "bootstrap_95_ci": [
+        0.07,
+        0.28
+      ],
+      "candidate_only": 24,
+      "comparator_only": 7,
+      "discordant": 31,
+      "p_value_raw": 0.003326892852783203,
+      "p_value_holm": 0.013307571411132812
+    },
+    {
+      "name": "krpo_minus_outcome_final_joint",
+      "candidate_rate": 0.38,
+      "comparator_rate": 0.28,
+      "difference": 0.1,
+      "bootstrap_95_ci": [
+        0.0,
+        0.2
+      ],
+      "candidate_only": 18,
+      "comparator_only": 8,
+      "discordant": 26,
+      "p_value_raw": 0.07551869750022888,
+      "p_value_holm": 0.22655609250068665
+    },
+    {
+      "name": "krpo_minus_outcome_action_trajectory",
+      "candidate_rate": 0.21,
+      "comparator_rate": 0.06,
+      "difference": 0.15,
+      "bootstrap_95_ci": [
+        0.08,
+        0.23
+      ],
+      "candidate_only": 16,
+      "comparator_only": 1,
+      "discordant": 17,
+      "p_value_raw": 0.000274658203125,
+      "p_value_holm": 0.001373291015625
+    },
+    {
+      "name": "outcome_minus_base_final_joint",
+      "candidate_rate": 0.28,
+      "comparator_rate": 0.21,
+      "difference": 0.07,
+      "bootstrap_95_ci": [
+        -0.03,
+        0.17
+      ],
+      "candidate_only": 18,
+      "comparator_only": 11,
+      "discordant": 29,
+      "p_value_raw": 0.26493089646101,
+      "p_value_holm": 0.52986179292202
+    },
+    {
+      "name": "outcome_minus_base_action_trajectory",
+      "candidate_rate": 0.06,
+      "comparator_rate": 0.06,
+      "difference": 0.0,
+      "bootstrap_95_ci": [
+        -0.06,
+        0.06
+      ],
+      "candidate_only": 5,
+      "comparator_only": 5,
+      "discordant": 10,
+      "p_value_raw": 1.0,
+      "p_value_holm": 1.0
+    }
+  ],
+  "multiplicity": {
+    "method": "Holm",
+    "family_size": 5,
+    "family_definition": "All five reported full-100 clean-set paired binary contrasts: K-RPO vs Base final joint; K-RPO vs outcome-only final joint and complete trajectory; outcome-only vs Base final joint and complete trajectory."
+  },
+  "action_step_comparison": {
+    "name": "krpo_minus_outcome_per_case_action_step_exact",
+    "candidate_mean": 0.6999404761904762,
+    "comparator_mean": 0.5564761904761905,
+    "difference": 0.1434642857142857,
+    "bootstrap_95_ci": [
+      0.08439077380952371,
+      0.20225059523809516
+    ]
+  },
+  "corrected_row54": {
+    "q14_base_clean": {
+      "joint_exact": true,
+      "trajectory_exact": false,
+      "action_step_exact": 0.2
+    },
+    "q14_outcome_clean": {
+      "joint_exact": true,
+      "trajectory_exact": false,
+      "action_step_exact": 0.6
+    },
+    "q14_krpo_clean": {
+      "joint_exact": true,
+      "trajectory_exact": false,
+      "action_step_exact": 0.8
+    }
+  }
+}

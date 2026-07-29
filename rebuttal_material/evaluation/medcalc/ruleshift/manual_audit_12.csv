@@ -1,0 +1,13 @@
+﻿base_sample_id,calculator_id,criterion,old_weight,new_weight,original_answer,revised_answer,automatic_check,optional_human_check,notes
+mcb-v1.0.7-test-0041,4,Female sex,1.0,3.0,2,4,PASS,,
+mcb-v1.0.7-test-0042,4,Female sex,1.0,3.0,5,7,PASS,,
+mcb-v1.0.7-test-0043,4,Hypertension history,1.0,3.0,4,6,PASS,,
+mcb-v1.0.7-test-0121,8,Heart rate above 100 beats per minute,1.5,3.5,1.5,3.5,PASS,,
+mcb-v1.0.7-test-0122,8,Heart rate above 100 beats per minute,1.5,3.5,4.5,6.5,PASS,,
+mcb-v1.0.7-test-0123,8,PE is the number-one diagnosis or equally likely,3.0,5.0,3,5,PASS,,
+mcb-v1.0.7-test-0261,18,History: Highly suspicious,2.0,4.0,4,6,PASS,,
+mcb-v1.0.7-test-0262,18,HEART cardiovascular risk-factor criterion,2.0,4.0,5,7,PASS,,
+mcb-v1.0.7-test-0263,18,HEART cardiovascular risk-factor criterion,1.0,3.0,5,7,PASS,,
+mcb-v1.0.7-test-0541,45,Confusion,1.0,3.0,1,3,PASS,,
+mcb-v1.0.7-test-0542,45,BUN above 19 mg/dL or urea above 7 mmol/L,1.0,3.0,1,3,PASS,,
+mcb-v1.0.7-test-0543,45,Systolic BP below 90 or diastolic BP at most 60 mmHg,1.0,3.0,1,3,PASS,,

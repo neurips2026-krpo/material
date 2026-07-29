@@ -1,0 +1,37 @@
+{
+  "backbone_correction": "Both submitted K-RPO checkpoints are Qwen3; the manuscript's Qwen2.5 reference is a naming/citation error.",
+  "checkpoints": {
+    "Qwen3-14B-K-RPO": {
+      "exported_from": "global_step_100",
+      "learning_rate": 2e-06,
+      "online_filtering": false,
+      "rollout_batch_size": 256,
+      "rollouts_per_case": 10,
+      "sampled_training_rollouts": 256000,
+      "sampling_temperature_recorded_in_run_log": 0.8,
+      "updates": 100
+    },
+    "Qwen3-32B-K-RPO": {
+      "exported_from": "global_step_75",
+      "learning_rate": 2e-06,
+      "online_filtering": false,
+      "rollout_batch_size": 256,
+      "rollouts_per_case": 10,
+      "sampled_training_rollouts": 192000,
+      "sampling_temperature_recorded_in_run_log": 1.0,
+      "updates": 75
+    }
+  },
+  "reward": {
+    "embedding_model": "Qwen3-Embedding-8B",
+    "endpoint": "set with EMBEDDING_API_URL",
+    "entrypoint": "compute_score",
+    "file": "training/tcm_reward_v2.py",
+    "used_by": [
+      "Qwen3-14B K-RPO",
+      "Qwen3-32B K-RPO"
+    ]
+  },
+  "schedule_note": "The two checkpoints have separately reported update schedules; no same-fixed-training-schedule claim is made.",
+  "training_source_cases": 2000
+}

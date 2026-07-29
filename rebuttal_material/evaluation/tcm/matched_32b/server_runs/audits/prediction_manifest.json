@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "analysis_population": "all 100 patient-task instances",
+  "checks": {
+    "q32_base_clean_records_100": true,
+    "q32_base_clean_unique_ids": true,
+    "q32_base_clean_ids_match": true,
+    "q32_base_clean_completed": true,
+    "q32_base_clean_condition": true,
+    "q32_base_clean_model": true,
+    "q32_base_clean_input_hash": true,
+    "q32_base_clean_template_hash": true,
+    "q32_base_clean_greedy": true,
+    "q32_base_clean_responses_nonempty": true,
+    "q32_krpo_clean_records_100": true,
+    "q32_krpo_clean_unique_ids": true,
+    "q32_krpo_clean_ids_match": true,
+    "q32_krpo_clean_completed": true,
+    "q32_krpo_clean_condition": true,
+    "q32_krpo_clean_model": true,
+    "q32_krpo_clean_input_hash": true,
+    "q32_krpo_clean_template_hash": true,
+    "q32_krpo_clean_greedy": true,
+    "q32_krpo_clean_responses_nonempty": true,
+    "paired_prompt_text_token_ids_and_lengths_identical": true
+  },
+  "conditions": {
+    "q32_base_clean": {
+      "prediction_file": "${ARTIFACT_ROOT}/tcm/server_runs/predictions/q32_base_clean/predictions.jsonl",
+      "sha256": "7ddee6fb1704286238609f2d87c6dd5ab4c349d9274b681a3c318b192f07cc63",
+      "records": 100,
+      "completion_tokens_total": 122048,
+      "finish_reasons": [
+        "stop"
+      ]
+    },
+    "q32_krpo_clean": {
+      "prediction_file": "${ARTIFACT_ROOT}/tcm/server_runs/predictions/q32_krpo_clean/predictions.jsonl",
+      "sha256": "2fa16fa6faddaa03fd9a8372be7127931c0ae31b521ec512f7b17c9ae84143a5",
+      "records": 100,
+      "completion_tokens_total": 125718,
+      "finish_reasons": [
+        "stop"
+      ]
+    }
+  }
+}

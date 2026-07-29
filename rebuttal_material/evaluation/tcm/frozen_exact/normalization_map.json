@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "frozen_date": "2026-07-26",
+  "unicode_normalization": "NFKC",
+  "remove_all_whitespace": true,
+  "strip_outer_characters": [
+    "\"",
+    "'",
+    "“",
+    "”",
+    "‘",
+    "’",
+    "[",
+    "]",
+    "【",
+    "】"
+  ],
+  "character_replacements": {
+    "淤": "瘀"
+  },
+  "multi_label_separators": [
+    ",",
+    "，",
+    "、",
+    ";",
+    "；",
+    "/",
+    "／"
+  ],
+  "sort_multi_label_components": true,
+  "deduplicate_multi_label_components": true,
+  "preserve_hierarchy_markers": [
+    "-",
+    "(",
+    ")"
+  ],
+  "semantic_aliases": {},
+  "forbidden_matching": [
+    "embedding_similarity",
+    "fuzzy_matching",
+    "substring_credit",
+    "edit_distance",
+    "hierarchical_partial_credit",
+    "post_result_aliases"
+  ],
+  "missing_value_policy": "missing_or_empty_is_incorrect_and_is_not_equivalent_to_无"
+}

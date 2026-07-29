@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "relative_path": "summary.json",
+      "sha256": "8ee7e29b3e69e574011b0e7836f44860a6d395bf1a8b06a1a4d0c049a6bdbdae",
+      "size_bytes": 494559
+    },
+    {
+      "relative_path": "summary.md",
+      "sha256": "fe71b33d69f6de4d6675269bf1c5da7bbb8b7f68a458d089be10a30f09385823",
+      "size_bytes": 2085
+    }
+  ]
+}
